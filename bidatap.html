@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Identitas Diri</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        text-decoration: none;
+        list-style: none;
+      }
+
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #ffeaef;
+      }
+
+      header {
+        background-color: #ff6a8f;
+        height: 80px;
+        width: 100%;
+        position: fixed;
+        top: 0;
+        z-index: 100;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      }
+
+      nav {
+        display: flex;
+        align-items: center;
+        height: 100%;
+        padding: 0 20px;
+        max-width: 1200px;
+        margin: 0 auto;
+      }
+
+      .logo {
+        flex: 1;
+      }
+
+      .logo h4 {
+        font-size: 30px;
+        font-weight: bold;
+        color: #c32ab1;
+      }
+
+      .logo span {
+        color: #fff;
+      }
+
+      .nav-links {
+        flex: 2;
+        display: flex;
+        justify-content: space-around;
+      }
+
+      .nav-links li {
+        list-style: none;
+      }
+
+      .nav-links a {
+        color: #fff;
+        font-size: 18px;
+        font-weight: bold;
+        text-decoration: none;
+      }
+
+      .nav-links a:hover {
+        color: #c32ab1;
+      }
+
+      .burger {
+        display: none;
+        cursor: pointer;
+      }
+
+      .burger i {
+        font-size: 24px;
+        color: #333;
+      }
+
+      .container {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+      }
+
+      h1 {
+        color: #c32ab1;
+        font-size: 32px;
+        font-weight: bold;
+        margin: 100px;
+        margin-left: 210px;
+        text-align: center;
+        text-transform: uppercase;
+        background-color: rgb(255, 189, 58);
+        width: 300px;
+        border-radius: 10px;
+        padding: 7px;
+      }
+
+      h2 {
+        color: #c32ab1;
+        font-size: 24px;
+        font-weight: bold;
+        margin: 20px 0 10px;
+        text-transform: uppercase;
+      }
+
+      p {
+        color: #333;
+        font-size: 16px;
+        margin: 0;
+        padding: 5px;
+      }
+
+      .section {
+        background-color: #fff;
+        border-radius: 10px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        margin: 20px;
+        padding: 25px;
+      }
+
+      .section:last-child {
+        margin-bottom: 0;
+      }
+
+      .label {
+        color: #c32ab1;
+        font-size: 14px;
+        font-weight: bold;
+        margin: 0 0 5px;
+        text-transform: uppercase;
+      }
+
+      .value {
+        color: #d6197e;
+        font-size: 16px;
+        margin: 0;
+      }
+
+      /* footer */
+      .footer {
+        margin-top: 50px;
+        padding: 20px;
+        background-color: #ff6a8f;
+      }
+
+      .footer p {
+        margin-top: 20px;
+        color: white;
+      }
+
+      .images img {
+        height: 100%;
+        bottom: 0;
+        transition: bottom 1s, left 1s;
+      }
+
+      .images .girl {
+        margin-left: 250px;
+        margin-top: -500px;
+        height: 500px;
+        border-radius: 80px;
+      }
+
+      .images .shape {
+        margin-top: -60px;
+        width: 450px;
+        height: 450px;
+        margin-left: 145px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo">
+          <h4><span>PUTRI</span> ZAHRA</h4>
+        </div>
+        <ul class="nav-links">
+          <li><a href="/index.html">Beranda</a></li>
+          <li><a href="/portofoliop.html">Portofolio</a></li>
+          <li><a href="#">Biodata diri</a></li>
+          <li><a href="https://wa.me/qr/J73GB7EL6JSZK1">Hubungi saya</a></li>
+        </ul>
+        <div class="burger">
+          <i class="fas fa-bars"></i>
+        </div>
+      </nav>
+    </header>
+
+    <div
+      class="container"
+      data-aos="zoom-in"
+      data-aos-delay="100"
+      data-aos-duration="1000"
+    >
+      <h1>Biodata</h1>
+
+      <div
+        class="images"
+        data-aos="zoom-in-up"
+        data-aos-delay="100"
+        data-aos-duration="1000"
+      >
+        <img src="/imgp/shape.png" class="shape" />
+        <img src="/imgp/putri.png" class="girl" />
+      </div>
+
+      <div
+        class="section"
+        data-aos="fade-right"
+        data-aos-delay="100"
+        data-aos-duration="1000"
+      >
+        <h2>Informasi Pribadi</h2>
+        <p>
+          <span class="label">Nama</span>
+          <span class="value"> : Putri Zahra Alia</span>
+        </p>
+        <p>
+          <span class="label">Tanggal Lahir</span>
+          <span class="value"> : Bekasi, 24 juni 2006 </span>
+        </p>
+        <p>
+          <span class="label">Alamat</span>
+          <span class="value"> : Jln rusun nagrak tower 11</span>
+        </p>
+        <p>
+          <span class="label">Jenis Kelamin</span>
+          <span class="value">: Perempuan</span>
+        </p>
+        <p>
+          <span class="label">Agama</span>
+          <span class="value"> : Islam</span>
+        </p>
+      </div>
+      <div
+        class="section"
+        data-aos="fade-right"
+        data-aos-delay="100"
+        data-aos-duration="1000"
+      >
+        <h2>Sosial Media</h2>
+        <p>
+          <span class="label">Instagram <span>:</span> </span>
+          <a href="https://instagram.com/putrizhrrra?igshid=ZDdkNTZiNTM="
+            ><span class="value"> @ putrizhrrra</span></a
+          >
+        </p>
+      </div>
+    </div>
+
+    <!-- Footer Section -->
+    <footer class="footer text-center">
+      <div class="container">
+        <p>
+          Website tugas Produktif Tkj dengan Biodata diri saya <br />
+          &copy; 2023 By : Putri Zahra Alia <br />
+          All Rights Reserved.
+        </p>
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
